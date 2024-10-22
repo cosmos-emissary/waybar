@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Transformation begins. If you want be superior follow soundwave"
+echo "Transformation begins."
 # Check if "waybar" directory exists in the current directory
 if [ -d "waybar" ]; then
     # Check if "waybar" directory exists under .config
