@@ -28,11 +28,12 @@ sudo dnf update
 sudo dnf install git
 mkdir git
 cd git
-git clone https://github.com/cosmos-emissary/waybar.git
+git clone https://github.com/cosmos-emissary/waybarconfig.git
 ```
 Now we can run script
 ```bash
-cd waybar
+cd waybarconfig
+
 chmod +x winstall.sh
 ./winstall.sh
 ```
