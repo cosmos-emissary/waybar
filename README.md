@@ -12,7 +12,7 @@ ARCH
 sudo pacman -S git
 mkdir git
 cd git
-git clone https://github.com/cosmos-emissary/waybar.git
+git clone https://github.com/cosmos-emissary/waybarconfig.git
 ```
 DEBIAN
 ```bash
@@ -20,7 +20,7 @@ sudo apt update && apt upgrade
 sudo apt install git
 mkdir git
 cd git
-git clone https://github.com/cosmos-emissary/waybar.git
+git clone https://github.com/cosmos-emissary/waybarconfig.git
 ```
 FEDORA
 ```bash
@@ -32,7 +32,7 @@ git clone https://github.com/cosmos-emissary/waybarconfig.git
 ```
 Now we can run script
 ```bash
-cd waybarconfig
+cd waybarconfig/WaybarConfig
 
 chmod +x winstall.sh
 ./winstall.sh
